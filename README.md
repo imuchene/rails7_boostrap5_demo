@@ -1,24 +1,27 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+After cloning the repo, do the following:
 
-Things you may want to cover:
+## Install dependencies
 
-* Ruby version
+```bash
+bundle
+```
 
-* System dependencies
+## Run the migrations
 
-* Configuration
+```bash
+rails db:migrate
+```
 
-* Database creation
+## On a separate terminal window, run the rails server
 
-* Database initialization
+```bash
+rails s
+```
 
-* How to run the test suite
+## Navigate the the articles URL on a browser
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```bash
+http://localhost:3000/articles
+```
