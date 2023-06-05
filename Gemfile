@@ -70,3 +70,6 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+# Add Bootstrap
+gem "bootstrap", "~> 5.2"
